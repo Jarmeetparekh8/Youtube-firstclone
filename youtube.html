@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube JP Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+
+  </head>
+  <body>
+
+    <!-- This all code is written by Jarmeet Miteshkumar Parekh by completeing all 16 challenges at 12-09-2023 16:25 thanks to SuperSimpleDev for great video i learn very new things
+     and things i couldn't learn at college -->
+
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <a id="no-underline" href="https://www.youtube.com/" target="_blank">
+          <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </a>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-button" src="icons/youtube-apps.svg">
+          <div class="tooltip">Youtube apps</div>
+        </div>
+          <div class="notifications-icon-container">
+            <img class="notifications-button" src="icons/notifications.svg">
+            <div class="notifications-count">
+              3
+            </div>
+            <div class="tooltip">Notification</div>
+          </div>
+          <div class="current-user-container">
+            <img class="current-user-picture" src="channel profile/my-channel.jpeg">
+            <div class="tooltip">Profile</div>
+          </div>
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <a id="no-underline" href="https://www.youtube.com/">
+        <div class="sidebar-link">
+          <img src="icons/home.svg">
+          <div class="media-font">Home</div>
+        </div>
+      </a>
+      <a id="no-underline" href="https://www.youtube.com/feed/explore">
+        <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div class="media-font">Explore</div>
+      </div>
+      </a>
+      <a id="no-underline" href="https://www.youtube.com/feed/subscriptions">
+        <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div class="media-font">Subscription</div>
+      </div>
+      </a>
+      <a id="no-underline" href="https://www.youtube.com/channel/UCqVDpXKLmKeBU_yyt_QkItQ">
+        <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div class="media-font">Orignals</div>
+      </div>
+      </a>
+      <a  id="no-underline" href="https://music.youtube.com/" target="_blank">
+        <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div class="media-font">Youtube Music</div>
+      </div>
+      </a>
+      <a id="no-underline" href="https://www.youtube.com/feed/library">
+        <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div class="media-font">Library</div>
+      </div>
+      </a>
+    </nav>
+
+    <main>
+    <section class="video-grid">
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a id="no-underline" href="https://youtu.be/AguclSviIJI">
+            <img class="thumbnail" src="https://i.ytimg.com/vi/AguclSviIJI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOzkiW83esAsdimBcFlgBWMMArsg">
+          <div class="video-time">
+            3:55
+          </div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a id="no-underline" href="https://www.youtube.com/channel/UCZiS5J9IZ7LGx0H_ZSdOAwg">
+              <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaQcdcYjOcpn70TrJLDV4GOmXnxbI57WpLtlXlmBAw=s48-c-k-c0x00ffffff-no-rj-mo">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a id="no-underline" href="https://youtu.be/AguclSviIJI">
+                What About Me Makes You Proud? - Emotional Father's Day Video Will Make You Cry
+              </a>
+            </p>
+            <p class="video-author">
+              <a id="no-underline" href="https://www.youtube.com/channel/UCZiS5J9IZ7LGx0H_ZSdOAwg">
+                 Central Community Church
+              </a>
+            </p>
+            <p class="video-stats">
+              <a id="no-underline" href="https://youtu.be/AguclSviIJI">
+                208k views &#183; 4 years ago
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a id="no-underline" href="https://youtu.be/FwqXzkf6gcE">
+            <img class="thumbnail" src="https://i.ytimg.com/vi/FwqXzkf6gcE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdXGlOJB89LLX2Jg3aQ374FL_qqQ">
+          <div class="video-time">
+            19:59
+          </div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a id="no-underline" href="https://www.youtube.com/@TheMarcMero">
+              <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaS9FLIi7NwPmPWNF-RiTwspeLf5_C_oQgx6_05LrA=s48-c-k-c0x00ffffff-no-rj">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a id="no-underline" href="https://youtu.be/FwqXzkf6gcE">
+                The Powerful Message About A Mother's Love
+              </a>
+            </p>
+            <p class="video-author">
+              <a id="no-underline" href="https://www.youtube.com/@TheMarcMero">
+                 Marc Mero
+              </a>
+            </p>
+            <p class="video-stats">
+              <a id="no-underline" href="https://youtu.be/FwqXzkf6gcE">
+                17M views &#183; 8 years ago
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a id="no-underline" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          <div class="video-time">
+            14:20
+          </div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a id="no-underline" href="https://www.youtube.com/@mkbhd">
+              <img class="profile-picture" src="channel profile/channel-1.jpeg">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a id="no-underline" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </a>
+            </p>
+            <p class="video-author">
+              <a id="no-underline" href="https://www.youtube.com/@mkbhd">
+                Marques Brownlee
+              </a>
+            </p>
+            <p class="video-stats">
+              <a id="no-underline" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                3.4M views &#183; 6 months ago
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a id="no-underline" href="https://youtu.be/mP0RAo9SKZk">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+          <div class="video-time">
+            8:22
+          </div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a id="no-underline" href="https://www.youtube.com/@markiplier">
+              <img class="profile-picture" src="channel profile/channel-2.jpeg">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a id="no-underline" href="https://youtu.be/mP0RAo9SKZk">
+                Try Not To Laugh Challenge #9
+              </a>
+            </p>
+            <p class="video-author">
+              <a id="no-underline" href="https://www.youtube.com/@markiplier">
+                Markiplier
+              </a>
+            </p>
+            <p class="video-stats">
+              <a id="no-underline" href="https://youtu.be/mP0RAo9SKZk">
+                19M views &#183; 4 years ago
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a id="no-underline" href="https://youtu.be/FgjPQQeTh1w">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+          <div class="video-time">
+            9:13
+          </div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a id="no-underline" href="https://www.youtube.com/@SSSniperWolf">
+              <img class="profile-picture" src="channel profile/channel-3.jpeg">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a id="no-underline" href="https://youtu.be/FgjPQQeTh1w">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </a>
+            </p>
+            <p class="video-author">
+              <a id="no-underline" href="https://www.youtube.com/@SSSniperWolf">
+                SSSniperWolf
+              </a>
+            </p>
+            <p class="video-stats">
+              <a id="no-underline" href="https://youtu.be/FgjPQQeTh1w">
+                12M views &#183; 1 year ago
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a id="no-underline" href="https://youtu.be/094y1Z2wpJg">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+          <div class="video-time">
+            22:09
+          </div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a id="no-underline" href="https://www.youtube.com/@veritasium">
+              <img class="profile-picture" src="channel profile/channel-4.jpeg">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a id="no-underline" href="https://youtu.be/094y1Z2wpJg">
+                 The Simplest Math Problem No One Can Solve - Collatz
+              </a>
+            </p>
+            <p class="video-author">
+              <a id="no-underline" href="https://www.youtube.com/@veritasium">
+                Veritasium
+              </a>
+            </p>
+            <p class="video-stats">
+              <a id="no-underline" href="https://youtu.be/094y1Z2wpJg">
+                18M views &#183; 4 months ago
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a id="no-underline" href="https://youtu.be/86CQq3pKSUw">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+          <div class="video-time">
+            11:17
+          </div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a id="no-underline" href="https://www.youtube.com/@CSDojo">
+              <img class="profile-picture" src="/Html--Css-Course/channel profile/channel-5.jpeg">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a id="no-underline" href="https://youtu.be/86CQq3pKSUw">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </a>
+            </p>
+            <p class="video-author">
+              <a id="no-underline" href="https://www.youtube.com/@CSDojo">
+                CS Dojo
+              </a>
+            </p>
+            <p class="video-stats">
+              <a id="no-underline" href="https://youtu.be/86CQq3pKSUw">
+                519k views &#183; 5 years ago
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a id="no-underline" href="https://youtu.be/yXWw0_UfSFg">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+          <div class="video-time">
+            19:59
+          </div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a id="no-underline" href="https://www.youtube.com/@MrBeast">
+              <img class="profile-picture" src="channel profile/channel-6.jpeg">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a id="no-underline" href="https://youtu.be/yXWw0_UfSFg">
+                Anything You can Fit In THe Circle I'll Pay For
+              </a>
+            </p>
+            <p class="video-author">
+              <a id="no-underline" href="https://www.youtube.com/@MrBeast">
+                 MrBeast
+              </a>
+            </p>
+            <p class="video-stats">
+              <a id="no-underline" href="https://youtu.be/yXWw0_UfSFg">
+                144M views &#183; 1 years ago
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a id="no-underline" href="https://youtu.be/ZmKy_fnRM_E">
+            <img class="thumbnail" src="https://i.ytimg.com/vi/ZmKy_fnRM_E/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBRDVuG4zrXlvVxYLMl6isnhMiBnw">
+          <div class="video-time">
+            16:29
+          </div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a id="no-underline" href="https://www.youtube.com/@magical_messi">
+              <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaTVZLul-Mavn_QWjqCgFGZPL8pCKReochL8P3LzFw=s48-c-k-c0x00ffffff-no-rj">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a id="no-underline" href="https://youtu.be/ZmKy_fnRM_E">
+                Lionel Messi - WORLD CHAMPION - Movie
+              </a>
+            </p>
+            <p class="video-author">
+              <a id="no-underline" href="https://www.youtube.com/@magical_messi">
+                 MagicalMessi
+              </a>
+            </p>
+            <p class="video-stats">
+              <a id="no-underline" href="https://youtu.be/ZmKy_fnRM_E">
+                6.7M views &#183; 5 months ago
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a id="no-underline" href="https://youtu.be/bA0uMERuGbE">
+            <img class="thumbnail" src="https://i.ytimg.com/vi/bA0uMERuGbE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBq_Y3lS7nIyWCe3fRyuMWvWIMUXA">
+          <div class="video-time">
+            17:44
+          </div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a id="no-underline" href="https://www.youtube.com/@jfootballtv">
+              <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaRiofcIf6cFCniB6o2Oeibwcm6WQNz7PJP6tdSBtaI=s48-c-k-c0x00ffffff-no-rj">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a id="no-underline" href="https://youtu.be/bA0uMERuGbE">
+                I Played Lionel Messi playing Korea vs USA,EU match! Crazy play
+              </a>
+            </p>
+            <p class="video-author">
+              <a id="no-underline" href="https://www.youtube.com/@jfootballtv">
+                 JFootballTV
+              </a>
+            </p>
+            <p class="video-stats">
+              <a id="no-underline" href="https://youtu.be/bA0uMERuGbE">
+                899k views &#183; 1 month ago
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a id="no-underline" href="https://youtu.be/9kfScGV6W1Y">
+            <img class="thumbnail" src="https://i.ytimg.com/vi/9kfScGV6W1Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsmPUj07CdoRDxpmQGZW-Ilae3rQ">
+          <div class="video-time">
+            12:26
+          </div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a id="no-underline" href="https://www.youtube.com/@SinghinUSA">
+              <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaQjbj2rPDctvy_bNpKKHgCkjdFxFIM5EGDBFju3jg=s48-c-k-c0x00ffffff-no-rj">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a id="no-underline" href="https://youtu.be/9kfScGV6W1Y">
+                Challenging Google's Top Feeder College Students? Ft. UC Berkeley!
+              </a>
+            </p>
+            <p class="video-author">
+              <a id="no-underline" href="https://www.youtube.com/@SinghinUSA">
+                 Singh in USA
+              </a>
+            </p>
+            <p class="video-stats">
+              <a id="no-underline" href="https://youtu.be/yXWw0_UfSFg">
+                3.1M views &#183; 10 month ago
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a id="no-underline" href="https://youtu.be/Xi4RrjvZA7w">
+            <img class="thumbnail" src="https://i.ytimg.com/vi/Xi4RrjvZA7w/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwaYfvZ6UQtthdcvATpkSCudtrVg">
+          <div class="video-time">
+            0:57
+          </div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a id="no-underline" href="https://www.youtube.com/@Lamborghini">
+              <img class="profile-picture" src="https://yt3.ggpht.com/ssSsv9GZZ4HXf_dwt6mVl0lLda_FvmP5sp6AsOngcvBYgl92RPdqFCY8-fKBOW-fg1rw_Yvwng=s48-c-k-c0x00ffffff-no-rj">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a id="no-underline" href="https://youtu.be/Xi4RrjvZA7w">
+                Designing the future: Lamborghini Terzo Millennio
+              </a>
+            </p>
+            <p class="video-author">
+              <a id="no-underline" href="https://www.youtube.com/@Lamborghini">
+                 Lamborghini
+              </a>
+            </p>
+            <p class="video-stats">
+              <a id="no-underline" href="https://youtu.be/Xi4RrjvZA7w">
+                1.5M views &#183; 5 years ago
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      
+
+
+    </section>
+    </main>
+
+    
+  </body>
+  </html>
